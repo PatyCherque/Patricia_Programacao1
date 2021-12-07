@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="css/jogos_matematicos.css" rel="stylesheet">
+		<title>Jogo Matemático</title>	
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Vamos ver se você sabe?</h1>
+                    <table style="width:100%">
+                        <tr id="tabe">
+                            <td><img src="imagens/vaquinhas.png" alt="width 50%">Quantos animais aparecem nesta imagem?</td>
+                            <td>
+                                <table class="quad">
+                                    <tr>
+                                        <td><button onclick="alert('Parabéns, você Acertou!!!')" id="btn1" value="4" >4</button></td>
+                                        <td><button onclick="alert('Xiiiiii, você errou. Tente Novamente!!!')" id="btn2">5</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button onclick="alert('Xiiiiii, você errou. Tente Novamente!!!')" id="btn3">6</button></td>
+                                        <td><button onclick="alert('Xiiiiii, você errou. Tente Novamente!!!')" id="btn4">7</button></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr id="tabe2">
+                            <td><img src="imagens/garrafas.png" alt="width 50%">Quantas garrafas aparecem nesta imagem?</td>
+                            <td>
+                                <table class="quad">
+                                    <tr>
+                                        <td><button onclick="alert('Xiiiiii, você errou. Tente Novamente!!!')" id="btn3">4</button></td>
+                                        <td><button onclick="alert('Xiiiiii, você errou. Tente Novamente!!!')" id="btn1">5</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button onclick="alert('Parabéns, você Acertou!!!')" id="btn4">6</button></td>
+                                        <td><button onclick="alert('Xiiiiii, você errou. Tente Novamente!!!')" id="btn2">7</button></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr id="tabe3">
+                            <td><img src="imagens/passaros.png" alt="width 50%">Quantos animais aparecem nesta imagem?</td>
+                            <td>
+                                <table class="quad">
+                                    <tr>
+                                        <td><button onclick="alert('Xiiiiii, você errou. Tente Novamente!!!')" id="btn4">9</button></td>
+                                        <td><button onclick="alert('Parabéns, você Acertou!!!')" id="btn1">3</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button onclick="alert('Xiiiiii, você errou. Tente Novamente!!!')" id="btn3">6</button></td>
+                                        <td><button onclick="alert('Xiiiiii, você errou. Tente Novamente!!!')" id="btn2">8</button></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <button onclick="history.back()">Voltar a página inicial</button>  
+    </body>
+</html>

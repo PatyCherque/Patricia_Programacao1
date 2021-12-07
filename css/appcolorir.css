@@ -1,0 +1,43 @@
+body {
+    font-family: fantasy;
+    font-style: inherit;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    background-color: rgb(117, 211, 148);
+}
+
+h1 {
+    font-family: cursive;
+    font-weight: bold;
+    font-style: inherit;
+    color: rgb(14, 11, 218);
+}
+
+#resultado {
+    width: 200px;
+    height: 50px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.fundo {
+    margin-top: 50px;
+}
+table, th, td {
+    margin-top: 50px;
+    margin-left: 30%;
+    border: 1px solid black;
+    align-self: center;
+    left: 50%;
+
+}
+
+img {
+    text-align: center;
+    margin-top: 50px;
+    margin-block-end: 50px;
+}
+button {
+    border-radius: 8px;
+    background-color: #06b42c;
+}

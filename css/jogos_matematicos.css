@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(45deg, rgb(13, 19, 11), #3ed111);
+
+}
+
+h1 {
+  font-size: 70px;
+  font-family: fantasy;
+  color: rgb(26, 22, 22);
+ 
+}
+#tabe {
+  background-color: tomato;
+  font-size: 30px;
+  font-family: Georgia;
+  font-weight: bold;
+  
+}
+
+#tabe2 {
+  background-color: yellowgreen;
+  font-size: 30px;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+#tabe3 {
+  background-color: rgb(228, 117, 13);
+  font-size: 30px;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+.quad {
+  text-align: center;
+}
+#btn1 {
+  background-color: #4CAF50;
+} /* Green */
+#btn2 {
+  background-color: #008CBA;
+} /* Blue */
+#btn3 {
+  background-color: #f44336;
+} /* Red */
+#btn4 {
+  background-color: #e7e7e7; color: black;
+} /* Gray */
+
+img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+button {
+  border-radius: 15px;
+  background-color: #361bcf;
+  font-family: Verdana;
+  font-weight: bold;
+  font: 15px
+}
